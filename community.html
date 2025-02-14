@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community - EmpowHer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="community.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">EmpowHer</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="community.html" class="active">Community</a></li>
+            <li><a href="crowdfunding.html">Crowdfunding</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="resources.html">Resource Hub</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button class="login-btn">Login</button>
+            <button class="signup-btn">Sign Up</button>
+        </div>
+    </nav>
+
+    <main class="community-main">
+        <section class="create-post">
+            <h2>Share Your Story</h2>
+            <div class="post-form">
+                <textarea placeholder="What's on your mind? Share your business journey..."></textarea>
+                <div class="post-actions">
+                    <button class="attach-media"><i class="fas fa-image"></i> Add Media</button>
+                    <button class="post-button">Post</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="community-layout">
+        <div class="community-layout">
+            <section class="feed-section">
+                <div class="post-filters">
+                    <button class="active">All Posts</button>
+                    <button>Success Stories</button>
+                    <button>Questions</button>
+                    <button>Events</button>
+                </div>
+
+                <div class="posts-container">
+                    <!-- Sample posts -->
+                    <div class="post">
+                        <div class="post-header">
+                            <img src="images/user1.jpg" alt="User" class="user-avatar">
+                            <div class="post-info">
+                                <h3>Meera Patel</h3>
+                                <span class="post-time">2 hours ago</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Excited to announce that my handcrafted jewelry business has reached customers in 5 states! Thank you EmpowHer community for all the support and guidance. 🎉</p>
+                            <img src="images/jewelry.jpg" alt="Handcrafted Jewelry" class="post-image">
+                        </div>
+                        <div class="post-actions">
+                            <button><i class="fas fa-heart"></i> Like</button>
+                            <button><i class="fas fa-comment"></i> Comment</button>
+                            <button><i class="fas fa-share"></i> Share</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="events-section">
+                <h2>Upcoming Events</h2>
+                <div class="events-container">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="date">15</span>
+                            <span class="month">FEB</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Financial Planning Workshop</h3>
+                            <p>By Priya Mehta, Financial Advisor</p>
+                            <span class="event-time"><i class="fas fa-clock"></i> 3:00 PM IST</span>
+                            <button class="register-btn">Register Now</button>
+                        </div>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="date">20</span>
+                            <span class="month">FEB</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Digital Marketing Masterclass</h3>
+                            <p>By Anjali Singh, Digital Marketing Expert</p>
+                            <span class="event-time"><i class="fas fa-clock"></i> 4:00 PM IST</span>
+                            <button class="register-btn">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About EmpowHer</h4>
+                <p>Empowering women entrepreneurs across India through community, resources, and opportunities.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 EmpowHer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

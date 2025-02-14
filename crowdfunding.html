@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crowdfunding - EmpowHer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="crowdfunding.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">EmpowHer</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="crowdfunding.html" class="active">Crowdfunding</a></li>
+            <li><a href="marketplace.html">Marketplace</a></li>
+            <li><a href="resources.html">Resource Hub</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button class="login-btn">Login</button>
+            <button class="signup-btn">Sign Up</button>
+        </div>
+    </nav>
+
+    <main class="crowdfunding-main">
+        <section class="hero-section">
+            <h1>Fund Your Dreams</h1>
+            <p>Connect with investors and raise funds for your business through traditional or blockchain-based anonymous investments</p>
+            <div class="cta-buttons">
+                <button class="pitch-btn">Pitch Your Idea</button>
+                <button class="invest-btn">Start Investing</button>
+            </div>
+        </section>
+
+        <div class="funding-layout">
+            <section class="active-campaigns">
+                <h2>Active Campaigns</h2>
+                <div class="campaign-filters">
+                    <button class="active">All Projects</button>
+                    <button>Technology</button>
+                    <button>Handicrafts</button>
+                    <button>Food & Beverage</button>
+                    <button>Fashion</button>
+                </div>
+
+                <div class="campaigns-grid">
+                    <div class="campaign-card">
+                        <img src="images/campaign1.jpg" alt="Campaign" class="campaign-image">
+                        <div class="campaign-content">
+                            <h3>Eco-Friendly Handicraft Production</h3>
+                            <p class="campaign-desc">Scaling up production of sustainable, handmade products while empowering rural artisans.</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                            <div class="campaign-stats">
+                                <div class="stat">
+                                    <span class="amount">₹7,50,000</span>
+                                    <span class="label">Raised</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="amount">₹10,00,000</span>
+                                    <span class="label">Goal</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="amount">15</span>
+                                    <span class="label">Days Left</span>
+                                </div>
+                            </div>
+                            <button class="invest-now-btn">Invest Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Add more campaign cards here -->
+                </div>
+            </section>
+
+            <aside class="investor-section">
+                <div class="investment-options">
+                    <h2>Investment Options</h2>
+                    <div class="option-card">
+                        <h3>Traditional Investment</h3>
+                        <ul>
+                            <li>Direct business investment</li>
+                            <li>Transparent transaction</li>
+                            <li>Regular updates</li>
+                            <li>Equity options</li>
+                        </ul>
+                        <button class="learn-more-btn">Learn More</button>
+                    </div>
+
+                    <div class="option-card blockchain">
+                        <h3>Blockchain Investment</h3>
+                        <ul>
+                            <li>Anonymous investment</li>
+                            <li>Secure blockchain technology</li>
+                            <li>Smart contracts</li>
+                            <li>Cryptocurrency options</li>
+                        </ul>
+                        <button class="connect-wallet-btn">Connect Wallet</button>
+                    </div>
+                </div>
+
+                <div class="pitch-guidelines">
+                    <h2>Pitch Guidelines</h2>
+                    <ul>
+                        <li>Clear business model</li>
+                        <li>Market analysis</li>
+                        <li>Financial projections</li>
+                        <li>Growth strategy</li>
+                        <li>Use of funds</li>
+                    </ul>
+                    <button class="schedule-pitch-btn">Schedule Your Pitch</button>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About EmpowHer</h4>
+                <p>Empowering women entrepreneurs across India through community, resources, and opportunities.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 EmpowHer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="crowdfunding.js"></script>
+</body>
+</html>

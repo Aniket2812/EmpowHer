@@ -1,0 +1,263 @@
+.crowdfunding-main {
+    margin-top: 70px;
+    background-color: var(--quaternary-color);
+}
+
+.hero-section {
+    background-color: var(--secondary-color);
+    padding: 4rem 5%;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.pitch-btn, .invest-btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pitch-btn {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.invest-btn {
+    background-color: white;
+    color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+}
+
+.funding-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    padding: 2rem 5%;
+}
+
+.active-campaigns {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.campaign-filters {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+}
+
+.campaign-filters button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.campaign-filters button.active {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.campaigns-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.campaign-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.campaign-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.campaign-content {
+    padding: 1.5rem;
+}
+
+.campaign-desc {
+    color: #666;
+    margin: 1rem 0;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+.progress {
+    height: 100%;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+
+.campaign-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.stat {
+    text-align: center;
+}
+
+.amount {
+    display: block;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.label {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.invest-now-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.investor-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.investment-options, .pitch-guidelines {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.option-card {
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.option-card.blockchain {
+    background-color: #f8f9fa;
+    border: 2px solid var(--accent-color);
+}
+
+.option-card h3 {
+    margin-bottom: 1rem;
+}
+
+.option-card ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.option-card ul li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.option-card ul li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
+.learn-more-btn, .connect-wallet-btn, .schedule-pitch-btn {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.learn-more-btn {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.connect-wallet-btn {
+    background-color: white;
+    color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+}
+
+.pitch-guidelines ul {
+    list-style: none;
+    margin: 1.5rem 0;
+}
+
+.pitch-guidelines ul li {
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.pitch-guidelines ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
+.schedule-pitch-btn {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .funding-layout {
+        grid-template-columns: 1fr;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .campaign-stats {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}

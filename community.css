@@ -1,0 +1,220 @@
+.community-main {
+    margin-top: 70px;
+    padding: 2rem 5%;
+    background-color: var(--quaternary-color);
+}
+
+.create-post {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.post-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attach-media, .post-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.attach-media {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.post-button {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.community-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.feed-section {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+}
+
+.post-filters button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.post-filters button.active {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.post {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.post-info h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.post-time {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.post-content {
+    margin-bottom: 1rem;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.post-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.post-actions button {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.post-actions button:hover {
+    color: var(--accent-color);
+}
+
+.events-section {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+
+.event-card {
+    display: flex;
+    gap: 1rem;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.event-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    min-width: 60px;
+}
+
+.date {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.month {
+    font-size: 0.8rem;
+}
+
+.event-details {
+    flex: 1;
+}
+
+.event-details h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+}
+
+.event-time {
+    display: block;
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+.register-btn {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.register-btn:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .community-layout {
+        grid-template-columns: 1fr;
+    }
+    
+    .post-actions {
+        flex-wrap: wrap;
+    }
+}
