@@ -87,7 +87,7 @@ const Community = () => {
       tags: ['Business Growth', 'E-commerce', 'Traditional Crafts'],
       likes: 245,
       comments: 56,
-      image: 'https://picsum.photos/seed/handloom/400/300',
+      image: 'https://www.thefinancialworld.com/wp-content/uploads/2024/07/Handloom-industry-in-Panipat-needs-tax-free-raw-material-to-compete-industry-in-China.jpg',
       authorAvatar: 'https://picsum.photos/seed/priya/40/40',
       timestamp: '2 hours ago'
     },
@@ -99,7 +99,7 @@ const Community = () => {
       tags: ['Funding', 'StartUp', 'EdTech'],
       likes: 189,
       comments: 42,
-      image: 'https://picsum.photos/seed/funding/400/300',
+      image: 'https://unfolded.venturra.com/content/images/size/w2000/2023/05/Unfolded--50-.png',
       authorAvatar: 'https://picsum.photos/seed/meera/40/40',
       timestamp: '4 hours ago'
     },
@@ -111,7 +111,7 @@ const Community = () => {
       tags: ['Healthcare', 'Tech', 'StartUp'],
       likes: 312,
       comments: 73,
-      image: 'https://picsum.photos/seed/healthcare/400/300',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPskAFMYH0n7XbjolEoTIdWBOBa8PFA0rBYA&s',
       authorAvatar: 'https://picsum.photos/seed/ritu/40/40',
       timestamp: '6 hours ago'
     },
@@ -123,7 +123,7 @@ const Community = () => {
       tags: ['Fashion', 'Sustainability', 'Marketing'],
       likes: 178,
       comments: 45,
-      image: 'https://picsum.photos/seed/fashion/400/300',
+      image: 'https://www.ecoideaz.com/wp-content/uploads/2022/07/Sustainable-fashion-categories.jpg',
       authorAvatar: 'https://picsum.photos/seed/zara/40/40',
       timestamp: '8 hours ago'
     },
@@ -135,7 +135,7 @@ const Community = () => {
       tags: ['Work-Life Balance', 'Personal Growth', 'Management'],
       likes: 423,
       comments: 89,
-      image: 'https://picsum.photos/seed/balance/400/300',
+      image: 'https://i0.wp.com/newmodernmom.com/wp-content/uploads/2023/11/2.jpg?resize=960%2C960&ssl=1',
       authorAvatar: 'https://picsum.photos/seed/anjali/40/40',
       timestamp: '12 hours ago'
     },
@@ -147,7 +147,7 @@ const Community = () => {
       tags: ['Personal Brand', 'Marketing', 'Networking'],
       likes: 267,
       comments: 52,
-      image: 'https://picsum.photos/seed/linkedin/400/300',
+      image: 'https://media.licdn.com/dms/image/v2/C4D12AQFoOjo0A6scHA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1615998776418?e=2147483647&v=beta&t=svbjJwa96c3sNgohltSkuf-Z6fRBwEkjs7SkEkUVTE4',
       authorAvatar: 'https://picsum.photos/seed/sarah/40/40',
       timestamp: '1 day ago'
     }
